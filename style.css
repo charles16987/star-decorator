@@ -63,6 +63,7 @@ header .logo {
 }
 section{
     padding: 40px 0px;
+    overflow: hidden;
 }
 .carousel .list .item .introduce .topic {
     font-size: 41px;
@@ -788,11 +789,15 @@ ul.list.cloned {
   left: 0px;
 }
 ul.list {
-   margin: 15px 0;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
 }
 ul.list li {
-  float: left;
-  padding-left: 20px;
+    float: left;
+    padding-left: 20px;
+    width: 100%;
+    white-space: nowrap;
 }
 .listitem span{
     font-size: 35px;
@@ -926,4 +931,7 @@ ul.list li {
 }
 .customer h2{
     color: var(--text--color);
+}
+.customer {
+    overflow: initial;
 }

@@ -12,6 +12,23 @@
     max-width: 364px;
 }
 	
+ .banner-patter-2 {
+    bottom: 68px;
+    right: -120px;
+}
+	
+.banner-patter-1 {
+    top: -24px;
+    right: 30px;
+}
+.customer figure {
+    width: 50%;
+    top: 72px;
+    height: 70vh;
+}
+.title {
+    font-size: 65px;
+}
 }
  @media (max-width: 991.9px) {
     .mobile_menu{
@@ -49,6 +66,55 @@ p{
 }
 .card-skills {
     margin-top: 25px;
+}
+.title {
+    font-size: 44px;
+}
+.banner-patter-1 {
+    max-width: 60px;
+    top: -39px;
+}
+.banner-patter-2 {
+    max-width: 74px;
+     bottom: 57px;
+}
+.card-main {
+    margin-bottom: 25px;
+}
+.card-main img {
+    max-width: 40px;
+}
+.h5, h5 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 35px;
+}
+.listitem span {
+    font-size: 30px;
+}
+.star-scroll {
+    max-width: 25px;
+}
+.about-us-text-content {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.customer figure {
+    width: 70%;
+}
+.contact_details {
+    margin-top: 30px;
+}
+.contact_us_btn_container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+section {
+    padding: 25px 0px;
 }
 }
 
@@ -135,7 +201,6 @@ h4{
 }
 .form-card {
     padding: 15px;
-    background: #20132e;
 }
 .nav.nav-pills .nav-link {
     font-size: 16px;
@@ -161,9 +226,51 @@ h4{
   display: block;
   display: flex;
   flex-direction: column;
+  z-index: 10000;
 }
 .social_icons .icons {
     background: #140c1c;
+}
+.contact_us_btn_container .button-55 {
+    display: none;
+}
+.title {
+    font-size: 30px;
+    top: 12%;
+}
+.title-first-word {
+    margin-left: -31px;
+    border-radius: 15px;
+}
+.title-sec-word {
+     margin-right: -31px;
+     border-radius: 15px;
+}
+.banner-3-img img {
+    top: 38px;
+    left: 0;
+}
+.banner-bottom {
+    padding-top: 50px;
+}
+.banner-patter-1 {
+    display: none;
+}
+.banner-patter-2 {
+    display: none;
+}
+.banner-2-img img {
+    bottom: -0%;
+}
+.button-55 {
+    padding: 7px 15px;
+}
+.review-card p{
+    font-size: 13px;
+}
+figure .review-card .review-icon {
+    width: 30px  !important;
+    height: 30px !important;
 }
 }
 	
