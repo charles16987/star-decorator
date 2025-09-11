@@ -272,5 +272,11 @@ figure .review-card .review-icon {
     width: 30px  !important;
     height: 30px !important;
 }
+.service {
+    padding-top: 0;
+}
+.gallery{
+     padding-top: 0;
+}
 }
 	
