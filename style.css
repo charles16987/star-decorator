@@ -935,3 +935,6 @@ ul.list li {
 .customer {
     overflow: initial;
 }
+.copy-rights-link {
+    color: var(--primary--color);
+}
